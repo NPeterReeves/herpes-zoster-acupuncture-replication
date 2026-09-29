@@ -25,10 +25,11 @@ The read-only OMOP analysis recorded agreement with the eight governed aggregate
 | [`docs/`](docs/) | Locked analysis specification and interpretation/quality limits |
 | [`provenance/`](provenance/) | Original aggregate-only source package and its file-checksum manifest |
 | [`presentation/`](presentation/) | Public PowerPoint summary with an editable next-study table |
+| [`DATA_ACCESS.md`](DATA_ACCESS.md) | Publisher-hosted source-data link, citation, and access instructions |
 
 ## Data access and rerunning the analysis
 
-Obtain the original participant workbook from the [publisher's S4 link](https://doi.org/10.1371/journal.pone.0318386.s004). Keep it outside this repository. The source workbook includes pseudonymized participant rows and original date/admission fields; neither it nor the transformed participant workbook is redistributed here. The [deidentification script](analysis/Herpes_Pain_Deidentification_Script_2026-09-23_v001.py) builds a separate approved-field workbook and removes those fields.
+See [DATA_ACCESS.md](DATA_ACCESS.md) for the publisher's source-data link, citation, and download instructions. Obtain the original participant workbook from the [publisher's S4 link](https://doi.org/10.1371/journal.pone.0318386.s004). Keep it outside this repository. The source workbook includes pseudonymized participant rows and original date/admission fields; neither it nor the transformed participant workbook is redistributed here. The [deidentification script](analysis/Herpes_Pain_Deidentification_Script_2026-09-23_v001.py) builds a separate approved-field workbook and removes those fields.
 
 The analysis was run with Python 3.12.14, NumPy 2.3.5, SciPy 1.17.0, and `openpyxl` (version not recorded). Example commands after installing those packages:
 
