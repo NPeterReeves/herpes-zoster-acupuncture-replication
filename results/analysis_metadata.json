@@ -1,0 +1,44 @@
+{
+  "analysis_version": "2026-09-23_v001",
+  "created_utc": "2026-09-23T16:38:14Z",
+  "input": {
+    "filename": "Herpes_Pain_Deidentified_Working_Data_2026-09-23_v001.xlsx",
+    "sha256": "6decf0e070c0a3b3515dc0b9ce28d24c101aad2e55cedaa5540d7803c1b0a54f"
+  },
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "population_checks": {
+    "total": 106,
+    "control": 52,
+    "experimental": 54,
+    "unique_participant_ids": 106
+  },
+  "analysis_rules": {
+    "quartiles": "SPSS EXAMINE HAVERAGE, rank=(n+1)p",
+    "mann_whitney": "Two-sided asymptotic, tie-corrected, no continuity correction",
+    "structural_zero": "Blank VAS after first observed zero on days 1-7 is derived as zero and flagged; day 28 observed-only",
+    "primary_cure_test": "Two-sided uncorrected Pearson chi-square, alpha=0.05"
+  },
+  "key_results": {
+    "control_cured": 34,
+    "experimental_cured": 47,
+    "expected_min": 12.264150943396226,
+    "primary_p": 0.008662414594674829,
+    "risk_difference": 0.2165242165242165,
+    "risk_ratio": 1.3311546840958606,
+    "odds_ratio": 3.5546218487394956
+  },
+  "outputs": [
+    "primary_cure.csv",
+    "reconciliation.csv",
+    "table1_baseline.csv",
+    "table2_vas.csv",
+    "table3_dlqi.csv",
+    "table4_safety.csv",
+    "vas_missingness_qc.csv",
+    "vas_observed_only_sensitivity.csv"
+  ]
+}

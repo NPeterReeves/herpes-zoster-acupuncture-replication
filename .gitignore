@@ -1,0 +1,18 @@
+# Source and transformed participant records
+Restricted_Source/
+CDM_Export/
+**/Herpes_Pain_Deidentified_Working_Data*.xlsx
+**/journal.pone.0318386.s004.xlsx
+**/postgres_password.txt
+**/*participant*level*.csv
+
+# Local credentials and runtime output
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+*.pyc
+.DS_Store
+reproduced_analysis/
+local_data/

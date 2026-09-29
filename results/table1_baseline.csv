@@ -1,0 +1,7 @@
+Variable,Level,Total_n,Total_Summary,Control_n,Control_Summary,Experimental_n,Experimental_Summary,Test,Statistic,P_Value,Published_P,Assessment
+Age (years),,106,61.99 ± 12.34,52,62.21 ± 13.55,54,61.78 ± 11.19,Pooled independent-samples t-test,0.18001416852853802,0.8574917338778872,0.857,Rounding-compatible
+Sex,Female,106,70 (66.04%),52,36 (69.23%),54,34 (62.96%),"Pearson chi-square, uncorrected",0.4640166417944197,0.4957527488585668,0.503,Unresolved p-value discrepancy
+,Male,106,36 (33.96%),52,16 (30.77%),54,20 (37.04%),,,,,
+Baseline VAS,,106,5.00 (1.00),52,5.00 (1.00),54,5.50 (1.00),"Mann-Whitney U, asymptotic",1286.0,0.4342622248748642,0.434,Rounding-compatible
+Admission DLQI,,106,15.50 (2.25),52,15.00 (2.00),54,16.00 (3.00),"Mann-Whitney U, asymptotic",1315.0,0.5676707359837572,0.568,Rounding-compatible
+Hospitalization (days),,106,8.00 (2.00),52,8.00 (2.00),54,8.00 (2.00),"Mann-Whitney U, asymptotic",1312.5,0.552295777511101,0.552,Rounding-compatible

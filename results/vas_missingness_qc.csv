@@ -1,0 +1,15 @@
+Day,Group,Randomized_N,Observed_N,Source_Missing_N,Derived_Structural_Zero_N,Unresolved_Missing_N,Analysis_N
+1,Control,52,52,0,0,0,52
+1,Experimental,54,54,0,0,0,54
+2,Control,52,52,0,0,0,52
+2,Experimental,54,54,0,0,0,54
+3,Control,52,52,0,0,0,52
+3,Experimental,54,54,0,0,0,54
+4,Control,52,52,0,0,0,52
+4,Experimental,54,53,1,1,0,54
+5,Control,52,52,0,0,0,52
+5,Experimental,54,50,4,4,0,54
+6,Control,52,51,1,1,0,52
+6,Experimental,54,45,9,9,0,54
+7,Control,52,38,14,14,0,52
+7,Experimental,54,33,21,21,0,54

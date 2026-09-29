@@ -1,0 +1,61 @@
+{
+  "analysis_version": "2026-09-24_v001",
+  "input": "read_only_database",
+  "database_etl": "2026-09-24_v003",
+  "source_package_sha256": "a5d1b670012f1d2f70c210d5c859b4dd331cbf654e92c1463e03dfd764d898fd",
+  "source_script_sha256": "14079fb8da47a7c06641b21c96f4778fc6bee31c4defdc8752f166bb572df3e2",
+  "source_data_sha256": "6decf0e070c0a3b3515dc0b9ce28d24c101aad2e55cedaa5540d7803c1b0a54f",
+  "reconciliation_status": "PASS",
+  "population": {
+    "population": 106,
+    "control": 52,
+    "experimental": 54,
+    "observed_measurements": 1116,
+    "core_pain_duration_observations": 106,
+    "source_audit_rows": 2968,
+    "cohort_rows": 212
+  },
+  "primary": {
+    "control_cured": 34,
+    "experimental_cured": 47,
+    "expected_min": 12.264150943396226,
+    "primary_p": 0.00866241459467483,
+    "risk_difference": 0.2165242165242165,
+    "risk_ratio": 1.3311546840958606,
+    "odds_ratio": 3.5546218487394956
+  },
+  "outputs": {
+    "primary_cure.csv": {
+      "rows": 9,
+      "status": "EXACT_OR_NUMERICALLY_EQUIVALENT"
+    },
+    "table1_baseline.csv": {
+      "rows": 6,
+      "status": "EXACT_OR_NUMERICALLY_EQUIVALENT"
+    },
+    "table2_vas.csv": {
+      "rows": 8,
+      "status": "EXACT_OR_NUMERICALLY_EQUIVALENT"
+    },
+    "table3_dlqi.csv": {
+      "rows": 3,
+      "status": "EXACT_OR_NUMERICALLY_EQUIVALENT"
+    },
+    "table4_safety.csv": {
+      "rows": 9,
+      "status": "EXACT_OR_NUMERICALLY_EQUIVALENT"
+    },
+    "vas_observed_only_sensitivity.csv": {
+      "rows": 8,
+      "status": "EXACT_OR_NUMERICALLY_EQUIVALENT"
+    },
+    "vas_missingness_qc.csv": {
+      "rows": 14,
+      "status": "EXACT_OR_NUMERICALLY_EQUIVALENT"
+    },
+    "reconciliation.csv": {
+      "rows": 13,
+      "status": "EXACT_OR_NUMERICALLY_EQUIVALENT"
+    }
+  }
+}

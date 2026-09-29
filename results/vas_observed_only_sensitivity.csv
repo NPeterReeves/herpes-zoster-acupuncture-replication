@@ -1,0 +1,9 @@
+Day,Total_n,Total_Median,Total_IQR,Control_n,Control_Median,Control_IQR,Experimental_n,Experimental_Median,Experimental_IQR,U_Statistic,P_Value,P_Display,Published_P,Assessment
+1,106,5.0,1.0,52,5.0,1.0,54,5.5,1.0,1286.0,0.4342622248748642,0.434,0.434,Observed-only sensitivity; not used for strict replication
+2,106,4.0,1.0,52,5.0,2.0,54,4.0,2.0,1979.0,0.00016565055986754194,<0.001,<0.001,Observed-only sensitivity; not used for strict replication
+3,106,4.0,1.25,52,4.0,1.0,54,3.0,1.0,2028.0,3.60660289841812e-05,<0.001,<0.001,Observed-only sensitivity; not used for strict replication
+4,105,3.0,2.0,52,3.0,1.0,53,2.0,1.0,1921.5,0.00029802749276582676,<0.001,<0.001,Observed-only sensitivity; not used for strict replication
+5,102,2.0,1.0,52,3.0,1.0,50,2.0,2.0,1733.0,0.0022387598990965883,0.002,<0.001,Observed-only sensitivity; not used for strict replication
+6,96,1.0,2.0,51,2.0,2.0,45,1.0,2.0,1342.0,0.13717637087252393,0.137,0.021,Observed-only sensitivity; not used for strict replication
+7,71,0.0,1.0,38,0.0,1.0,33,0.0,0.0,779.0,0.038336552991428414,0.038,0.013,Observed-only sensitivity; not used for strict replication
+28,106,0.0,0.0,52,0.0,0.0,54,0.0,0.0,1561.5,0.07022335615355448,0.070,0.070,Observed-only sensitivity; not used for strict replication

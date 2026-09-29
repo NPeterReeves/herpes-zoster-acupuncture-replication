@@ -1,0 +1,10 @@
+Section,Measure,Numerator,Denominator,Estimate,CI_Lower,CI_Upper,Statistic,P_Value,Method,Interpretation
+Group rate,Control cured by day 7,34,52,0.6538461538461539,0.5180355424727014,0.7684899233353408,,,Wilson 95% CI,Observed or confirmed structural zero at day 7
+Group rate,Experimental cured by day 7,47,54,0.8703703703703703,0.7557826977763024,0.9357627925267374,,,Wilson 95% CI,Observed or confirmed structural zero at day 7
+Effect,Risk difference (Experimental - Control),,,0.2165242165242165,0.05443310451243727,0.3672580582357162,,,Newcombe hybrid-score 95% CI,Absolute increase in cure probability
+Effect,Risk ratio (Experimental / Control),,,1.3311546840958606,1.0651341545941782,1.663614658630003,,,Katz log 95% CI,Relative cure probability
+Effect,Odds ratio (Experimental / Control),,,3.5546218487394956,1.3364678121369862,9.454276693228051,,,Woolf log 95% CI,Relative odds of cure
+Primary test,"Pearson chi-square, two-sided, uncorrected",,,,,,6.891137139038376,0.008662414594674829,Prespecified primary test; alpha=0.05,Statistically significant
+Sensitivity,"Pearson-equivalent z, one-sided favorable",,,,,,2.6250975484805084,0.004331207297337417,Upper-tail normal probability,Experimental cure rate higher
+Sensitivity,Pearson chi-square with Yates correction,,,,,,5.742086103197217,0.01656310918278539,Two-sided,Sensitivity analysis
+Sensitivity,Fisher exact,,,0.28132387706855794,,,,0.011554667044084938,Two-sided,Sensitivity analysis

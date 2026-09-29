@@ -1,0 +1,4 @@
+Time,Total_n,Total_Median,Total_IQR,Control_n,Control_Median,Control_IQR,Experimental_n,Experimental_Median,Experimental_IQR,U_Statistic,P_Value,P_Display,Published_P,Assessment
+Admission,106,15.5,2.25,52,15.0,2.0,54,16.0,3.0,1315.0,0.5676707359837572,0.568,0.586,Published Table 3 p-value differs from source replication and published Table 1
+Hospital discharge,106,10.0,2.0,52,10.0,3.0,54,10.0,1.25,1841.5,0.004656073914080803,0.005,0.005,Rounding-compatible
+Change (admission - discharge),106,5.0,2.0,52,5.0,1.0,54,6.0,1.0,731.0,1.1443577045565552e-05,<0.001,<0.001,Experimental IQR discrepancy; test is reproducible

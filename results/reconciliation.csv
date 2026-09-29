@@ -1,0 +1,14 @@
+ID,Location,Item,Published,Replicated,Assessment,Explanation
+R001,Analysis population,Randomized participants,106 (52 control; 54 experimental),106 (52 control; 54 experimental),Exact,Deidentified workbook reconciles to the randomized analysis population.
+R002,Table 1,Age summaries and between-group p-value,p=0.857,p=0.857,Rounding-compatible,Prespecified pooled two-sample t-test reproduces the displayed p-value.
+R003,Table 1,Sex counts,Female 36/34; Male 16/20,Female 36/34; Male 16/20,Exact,Counts match the source workbook.
+R004,Table 1,Sex Pearson p-value,0.503,0.495753,Unresolved discrepancy,"Uncorrected Pearson, Yates-corrected Pearson, and Fisher exact do not produce 0.503."
+R005,Table 1,Baseline VAS,5.00 (1.00) vs 5.50 (1.00); p=0.434,p=0.434,Rounding-compatible,HAVERAGE quartiles and asymptotic Mann-Whitney test reproduce the table.
+R006,Table 1,Admission DLQI,p=0.568,p=0.568,Rounding-compatible,Table 1 is reproduced; Table 3 prints 0.586 for the same comparison.
+R007,Table 2,VAS days 1-7 and 28,"All displayed medians, IQRs, and p-values","All displayed medians, IQRs, and p-values",Rounding-compatible,Days 4-7 use only confirmed post-cure structural zeros; day 28 remains observed-only.
+R008,Figure 3/text,Day-7 cure rates,65.38% control; 87.04% experimental; p<0.005,65.38% control; 87.04% experimental; p=0.008662,Rates exact; p-value threshold not reproduced,Two-sided uncorrected Pearson p-value is above 0.005; the favorable one-sided p-value is below 0.005.
+R009,Table 3,Admission DLQI p-value,0.586,0.567671,Unresolved discrepancy,"The source result rounds to 0.568, matching Table 1 rather than Table 3."
+R010,Table 3,Experimental DLQI change IQR,1.25,1.00,Unresolved discrepancy,SPSS EXAMINE HAVERAGE quartiles from participant-level values give an IQR of 1.00.
+R011,Table 4,Gastrointestinal disorder count,12 control; 9 experimental; total 21,11 control; 9 experimental; total 20,Unresolved discrepancy,The prespecified source definition is the union of nausea or vomiting flags.
+R012,Table 4,Vomiting count,3 control; 2 experimental; total 5,2 control; 2 experimental; total 4,Unresolved discrepancy,Participant-level source contains two vomiting flags in each group.
+R013,Table 4,Safety p-values,"0.627, 0.528, 0.498, 0.592, 0.632","0.587, 0.496, 0.555, 0.532, 0.969",Unresolved discrepancy,Published p-values are not reproduced by uncorrected Pearson tests on the participant-level source counts.

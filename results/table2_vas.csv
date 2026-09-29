@@ -1,0 +1,9 @@
+Day,Total_n,Total_Median,Total_IQR,Control_n,Control_Median,Control_IQR,Experimental_n,Experimental_Median,Experimental_IQR,U_Statistic,P_Value,P_Display,Published_P,Assessment
+1,106,5.0,1.0,52,5.0,1.0,54,5.5,1.0,1286.0,0.4342622248748642,0.434,0.434,Rounding-compatible
+2,106,4.0,1.0,52,5.0,2.0,54,4.0,2.0,1979.0,0.00016565055986754194,<0.001,<0.001,Rounding-compatible
+3,106,4.0,1.25,52,4.0,1.0,54,3.0,1.0,2028.0,3.60660289841812e-05,<0.001,<0.001,Rounding-compatible
+4,106,3.0,2.0,52,3.0,1.0,54,2.0,1.0,1973.5,0.00018908837075129052,<0.001,<0.001,Rounding-compatible
+5,106,2.0,1.0,52,3.0,1.0,54,2.0,1.25,1939.0,0.00039235946361911267,<0.001,<0.001,Rounding-compatible
+6,106,1.0,2.0,52,2.0,2.0,54,1.0,2.0,1753.0,0.02147200836001127,0.021,0.021,Rounding-compatible
+7,106,0.0,0.0,52,0.0,1.0,54,0.0,0.0,1696.0,0.012844912525066641,0.013,0.013,Rounding-compatible
+28,106,0.0,0.0,52,0.0,0.0,54,0.0,0.0,1561.5,0.07022335615355448,0.070,0.070,Rounding-compatible
