@@ -16,6 +16,12 @@ Risk difference: **21.65 percentage points** (95% CI 5.44–36.73); Pearson χ²
 
 The read-only OMOP analysis recorded agreement with the eight governed aggregate output tables in [omop_reconciliation.json](results/omop_reconciliation.json). This checks the database-to-analysis path; the OMOP script intentionally reuses the source analysis functions for statistics. The separate DQD run **did not pass overall**: among 2,374 checks, 669 passed, 28 failed, and 708 had execution errors (including checks also marked not applicable). See [interpretation and limits](docs/interpretation_and_limits.md).
 
+## Exploratory first-week VAS burden
+
+A post hoc analysis summarizes each randomized participant's day-1-to-7 daily worst-pain VAS trajectory as a trapezoidal AUC over six one-day intervals. Mean AUC was 19.35 (SD 4.84) score-days with medication alone and 15.70 (SD 5.47) with WAA plus medication; difference −3.64 score-days (95% CI −5.63 to −1.65; Welch p = 0.00044). A baseline-adjusted HC3 model estimated −4.20 (95% CI −5.63 to −2.77). This supplements, and does not replace, the locked day-7 cure endpoint. The open-label comparison does not isolate a needling-specific effect.
+
+See the [method and limitations](docs/Herpes_Pain_First_Week_VAS_Burden_README_2026-09-30_v001.md), [analysis script](analysis/Herpes_Pain_First_Week_VAS_Burden_2026-09-30_v001.py), and [aggregate results](results/Herpes_Pain_First_Week_VAS_Burden_Results_2026-09-30_v001.json). The approved transformed workbook is required to rerun the script and is not hosted here.
+
 ## Repository contents
 
 | Location | Contents |
