@@ -1,0 +1,97 @@
+{
+  "analysis_status": "EXPLORATORY_POST_HOC",
+  "input_sha256": "6decf0e070c0a3b3515dc0b9ce28d24c101aad2e55cedaa5540d7803c1b0a54f",
+  "sample": {
+    "n": 106,
+    "control": 52,
+    "waa_plus_medication": 54,
+    "derived_post_cure_zeros": 50,
+    "unresolved_week_one_vas_missing": 0
+  },
+  "definition": {
+    "auc": "Trapezoidal area from day 1 to day 7 inclusive, six unit-day intervals; daily VAS reports worst pain in prior 24 hours. Units: VAS score-days.",
+    "baseline": "vas_baseline, numerically identical to vas_day_1 in all 106 records",
+    "contrast": "WAA plus medication minus medication alone; negative values favor WAA",
+    "primary_trial_endpoint_unchanged": "Day-7 VAS=0 cure, two-sided Pearson chi-square"
+  },
+  "auc_day1_to_day7": {
+    "unadjusted_welch": {
+      "n_control": 52,
+      "n_waa": 54,
+      "control_mean": 19.346153846153847,
+      "waa_mean": 15.703703703703704,
+      "control_sd": 4.836076092853303,
+      "waa_sd": 5.474226505642634,
+      "waa_minus_control": -3.6424501424501425,
+      "ci95": [
+        -5.63032266430118,
+        -1.6545776205991052
+      ],
+      "welch_p": 0.0004369710015800588,
+      "hedges_g": -0.6992889825265904
+    },
+    "baseline_adjusted_ols_hc3": {
+      "waa_minus_control": -4.198926913760671,
+      "ci95_hc3": [
+        -5.628400348468178,
+        -2.7694534790531637
+      ],
+      "hc3_p": 6.542724862104545e-08,
+      "degrees_of_freedom": 103
+    },
+    "baseline_adjusted_stratified_bootstrap_ci95": [
+      -5.590280638234021,
+      -2.8410539525044705
+    ]
+  },
+  "sensitivity_mean_of_seven_daily_vas": {
+    "unadjusted_welch": {
+      "n_control": 52,
+      "n_waa": 54,
+      "control_mean": 3.1785714285714284,
+      "waa_mean": 2.653439153439154,
+      "control_sd": 0.7777801596792736,
+      "waa_sd": 0.866348522644982,
+      "waa_minus_control": -0.5251322751322745,
+      "ci95": [
+        -0.8420193106909173,
+        -0.2082452395736316
+      ],
+      "welch_p": 0.0013861369189279017,
+      "hedges_g": -0.6326079498540219
+    },
+    "baseline_adjusted_ols_hc3": {
+      "waa_minus_control": -0.6186653405323479,
+      "ci95_hc3": [
+        -0.8329819138001986,
+        -0.4043487672644972
+      ],
+      "hc3_p": 1.0270839502989458e-07,
+      "degrees_of_freedom": 103
+    }
+  },
+  "sensitivity_mean_days2_to7": {
+    "unadjusted_welch": {
+      "n_control": 52,
+      "n_waa": 54,
+      "control_mean": 2.817307692307693,
+      "waa_mean": 2.1790123456790123,
+      "control_sd": 0.7805224322871845,
+      "waa_sd": 0.9018103454805658,
+      "waa_minus_control": -0.6382953466286807,
+      "ci95": [
+        -0.962830372719621,
+        -0.31376032053774033
+      ],
+      "welch_p": 0.0001713014795224663,
+      "hedges_g": -0.750351848542469
+    }
+  },
+  "limits": [
+    "Daily VAS recorded worst pain in the prior 24 hours; the AUC is a trajectory summary, not observed time-integrated pain.",
+    "Daily values after an observed zero were derived as zero through day 7 under the locked rule.",
+    "The comparison includes WAA-specific and contextual effects because the trial has no sham or attention-matched arm.",
+    "The analysis is post hoc; no multiple-analysis familywise correction is claimed.",
+    "Actual medication consumption and exact symptom-onset dates are unavailable."
+  ]
+}
